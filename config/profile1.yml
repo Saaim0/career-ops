@@ -1,0 +1,76 @@
+# Career-Ops Profile Configuration
+# Copy this file to config/profile.yml and fill in your details.
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Saaim Babar"
+  email: "saaimbabar@hotmail.com"
+  phone: "+1-647-239-6175"
+  location: "Scarborough, ON, Canada"
+  linkedin: ""
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # The ID starts with "D" and is 11 characters long.
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Game Designer"
+    - "UX/UI Designer"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Game Designer"
+      level: "Entry-Mid"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Digital Designer"
+      level: "Entry-Mid"
+      fit: "primary"
+    - name: "Graphic Designer"
+      level: "Entry-Mid"
+      fit: "secondary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Game Designer and Digital Futures Graduate"
+  # Your exit story — what makes you unique
+  exit_story: "Passionate about creating immersive digital experiences through game design and interactive media, with a background in design education and hands-on experience in customer service and technical testing."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Game Design and Development"
+    - "Project Management"
+    - "Team Collaboration"
+    - "Technical Knowledge"
+    - "Strong Communication & Interpersonal Abilities"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Project S"
+      url: ""
+      hero_metric: "Procedurally generated open-world RPG in Unreal Engine 5"
+    - name: "Project R"
+      url: ""
+      hero_metric: "Multiplayer motorcycle simulation game for urban environments"
+    - name: "Restaurant Menu Design"
+      url: ""
+      hero_metric: "Digital menus for Yummy's Kitchen"
+  # Optional: dashboard/demo URL with credentials
+  # dashboard:
+  #   url: "https://janesmith.dev/demo"
+  #   password: "demo-2026"
+
+compensation:
+  target_range: "$50K-70K"     # Your target total comp (adjusted for entry-mid level)
+  currency: "CAD"
+  minimum: "$40K"               # Walk-away number
+  location_flexibility: "Remote preferred, open to on-site in Toronto area"
+
+location:
+  country: "Canada"
+  city: "Scarborough"
+  timezone: "EST"
+  visa_status: "Canadian citizen"
+  # For remote roles outside your country:
+  # onsite_availability: "1 week/month in any city"
